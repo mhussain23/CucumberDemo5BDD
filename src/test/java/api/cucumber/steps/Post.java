@@ -8,6 +8,8 @@ import io.cucumber.java.en.When;
 public class Post {
     @Given("User should be logged in and should be present on wall")
     public void userShouldBeLoggedInAndShouldBePresentOnWall() {
+
+        System.out.println("Testing Git");
         System.out.println("userShouldBeLoggedInAndShouldBePresentOnWall");
     }
 

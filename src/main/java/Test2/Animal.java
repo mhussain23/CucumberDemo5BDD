@@ -16,7 +16,7 @@ class Horse extends Animal {
 }
 
  class TestAnimals {
-    public staticc void main (String [] args) {
+    public static void main (String [] args) {
         Animal a = new Animal();
 
         Animal b = new Horse(); // Animal ref, but a Horse object

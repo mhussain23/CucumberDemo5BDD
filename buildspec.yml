@@ -8,7 +8,7 @@ phases:
   post build:
     commands:
       - echo Build completed successfully
-artifact:
+artifacts:
   files:
     - target/Demo5-1.0-SNAPSHOT.jar
-  discard-path: yes
+  discard-paths: yes
